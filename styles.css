@@ -88,12 +88,16 @@ header {
 
 .image-div ul {
   position: absolute;
-  right: 100px;
+  right: 50px;
   top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 40px;
+  gap: 15px;
+}
+
+.hide {
+  display: none;
 }
 
 ul {
@@ -145,6 +149,7 @@ ul li {
   font-size: 15px;
   width: 40rem;
   text-align: center;
+  max-width: 100%;
 }
 
 .explore {
@@ -282,4 +287,40 @@ footer {
 footer div {
   display: flex;
   gap: 20px;
+}
+
+@media (max-width: 900px)
+{
+
+  .about-div .description {
+    width: 100%;
+  }
+  .image-div .icon {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+
+  }
+
+  .image-div ul {
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+
+  .show {
+    display: flex;
+  }
+
 }
