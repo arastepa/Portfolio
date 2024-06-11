@@ -275,18 +275,26 @@ main {
 footer {
   background-color: #1a1a1a;
   width: 100%;
-  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #CACBC4;
   gap: 10px;
+  padding: 20px;
 }
 
 footer div {
   display: flex;
   gap: 20px;
+}
+
+footer p {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 @media (max-width: 900px)
