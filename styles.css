@@ -322,5 +322,8 @@ footer div {
   .show {
     display: flex;
   }
+  .info, .image-div, .skills, .about-div {
+    padding: 40px;
+  }
 
 }
