@@ -327,3 +327,18 @@ footer div {
   }
 
 }
+
+
+@media (max-width: 500px)
+{
+
+  .info .rest{
+    display: none;
+  }
+
+  .info .about h5::after {
+    content: " arastepa";
+  }
+
+  
+}
