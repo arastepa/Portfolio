@@ -347,6 +347,14 @@ footer p {
   .info .about h5::after {
     content: " arastepa";
   }
+}
 
-  
+ul img{
+
+  width: 7rem;
+
+}
+
+.using ul {
+  width: 40rem;
 }
