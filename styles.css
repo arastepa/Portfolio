@@ -179,6 +179,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  /* width: 40rem; */
+  max-width: 100%;
 }
 
 .using {
@@ -353,8 +355,4 @@ ul img{
 
   width: 7rem;
 
-}
-
-.using ul {
-  width: 40rem;
 }
