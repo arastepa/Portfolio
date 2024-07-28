@@ -179,20 +179,20 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
-  /* width: 40rem; */
-  max-width: 100%;
+  width: 60%;
+  justify-content: center;
 }
 
 .using {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
 }
 
 .using ul li {
   display: flex;
-  flex-direction: row;
   flex-direction: column;
   gap: 10px;
   align-items: center;
